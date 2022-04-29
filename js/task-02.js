@@ -34,3 +34,44 @@ function makeIngredientList(ingredients) {
 const ingredientsItems = makeIngredientList(ingredients);
 //  console.log(ingredientsItems);
 ingredientsList.append(...ingredientsItems);
+
+// const listEl = document.querySelector("#ingredients");
+// ingredients.forEach((element) => {
+//     const itemEl = document.createElement("li");
+//     itemEl.textContent = element;
+//     itemEl.classList.add("item");
+//     listEl.append(itemEl);
+// });
+// console.log(listEl);
+
+// const listEl = document.body.querySelector("#ingredients");
+
+// function makeIngredientsList(items) {
+//     return items.map((item) => {
+//         const itemEl = document.createElement("li");
+//         itemEl.classList.add("item");
+//         itemEl.textContent = item;
+//         return itemEl;
+//     });
+// }
+
+// listEl.append(...makeIngredientsList(ingredients));
+// console.log(listEl);
+// const ingredientsEl = document.querySelector("#ingredients");
+// const liElements = ingredients.map(ingredient => {
+//     const listElem = document.createElement("li");
+//     listElem.textContent = (`${ingredient}`);
+//     listElem.classList.add("item");
+//     return listElem;
+// })
+// console.log(liElements);
+// ingredientsEl.append(...liElements);
+// const ingredientsEl = document.querySelector("#ingredients");
+// const result = ingredients.map(element => {
+//     const listElem = document.createElement("li");
+//     listElem.textContent = (`${element}`);
+//     listElem.classList.add("item");
+//     return listElem;
+// })
+// console.log(result);
+// ingredientsEl.append(...result);
